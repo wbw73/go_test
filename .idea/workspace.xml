@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb334cbe-905d-4ac7-9731-2f03e8af7033" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/a.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gototine/gototine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_test/jsonDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/point_demo/point_demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show/sho.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct_demo/struct_demo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +60,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="HTML" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="false" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="Go 构建.go build hello.go">
+    <configuration name="go build github.com/wbw73/go_test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/a.go" />
+      <package value="github.com/wbw73/go_test" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <package value="github.com/wbw73/go_test" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build hello.go" />
+        <item itemvalue="Go 构建.go build github.com/wbw73/go_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,8 +108,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1567" height="197" key="GridCell.Tab.0.bottom" timestamp="1601187639781">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
+    <state width="1567" height="197" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601187639781" />
+    <state width="1567" height="197" key="GridCell.Tab.0.center" timestamp="1601187639781">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
+    <state width="1567" height="197" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601187639781" />
+    <state width="1567" height="197" key="GridCell.Tab.0.left" timestamp="1601187639781">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167013" />
+    <state width="1567" height="197" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601187639781" />
+    <state width="1567" height="197" key="GridCell.Tab.0.right" timestamp="1601187639781">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
+    <state width="1567" height="197" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601187639781" />
+    <state x="1881" y="275" key="SettingsEditor" timestamp="1600933956337">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="403" y="96" key="SettingsEditor/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600917935811" />
+    <state x="1881" y="275" key="SettingsEditor/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1600933956337" />
+    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1601187631117">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601187631117" />
   </component>
 </project>
