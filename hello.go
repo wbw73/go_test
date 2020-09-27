@@ -49,8 +49,39 @@ const(
 	y,l=iota,iota*4
 	u,m
 )
+
+type Data struct {
+
+}
+
+func (self Data) String() string {
+	return "data"
+}
 //main()函数
 func main() {
+	//fmt.Printf("%v",Data{})
+
+	//io
+	//basicio.SampleReadFromString()
+	//basicio.SamlpeReadStdin()
+	//basicio.SamlpeReadFile()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//learmImooc()
 	//show.Sho()
 	/*goto One
@@ -166,6 +197,11 @@ func main() {
 	//go get "包" 下载包
 	//go build 编译并加载包
 	//go list -m all 列所所有依赖
+
+	/*str:=fmt.Sprintf("float %f",3.1415926)
+	fmt.Printf(str)*/
+
+	//fmt.Fprintln(os.Stdout,"A")
 }
 
 func action(b show.Behavior)  string{

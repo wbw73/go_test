@@ -1,7 +1,5 @@
 package show
 
-import "fmt"
-
 //接口
 type Behavior interface {
 	Run() string
@@ -9,7 +7,7 @@ type Behavior interface {
 }
 
 func init()  {
-	fmt.Print("AAAAAA\n")
+	//fmt.Print("AAAAAA\n")
 }
 
 func Sho()  {
