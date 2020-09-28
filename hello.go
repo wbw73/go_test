@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wbw73/go_test/readimage"
 	"github.com/wbw73/go_test/show"
+	"github.com/wbw73/go_test/strconvsample"
 	"reflect"
 )
 
@@ -74,8 +74,13 @@ func main() {
 	//codecount.CodeCount()
 
 	//读取bmp位图
-	readimage.ImgRead()
+	//readimage.ImgRead()
 
+	//字符串处理
+	//stringssample.StrSample()
+
+	//字符串转换
+	strconvsample.StrConvSample()
 
 
 

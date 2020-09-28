@@ -22,6 +22,8 @@ type BitMapReadInfo struct {  //C++提供读取顺序
 }
 
 func ImgRead()  {
+	//读取位图文件头
+
 	file,_:=os.Open("1.bmp")
 	defer file.Close()
 	var headA,headB byte   //头按两个字节读取 结果 规定是BM  字节是66  77
