@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb334cbe-905d-4ac7-9731-2f03e8af7033" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/basicio/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bufiosample/iosample.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codecount/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_test.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hello.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/show/sho.go" beforeDir="false" afterPath="$PROJECT_DIR$/show/sho.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,9 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1hwIhgXk09KjhnCEoo6DKBtIssn" />
   <component name="ProjectLevelVcsManager">
@@ -51,6 +56,7 @@
     <property name="configurable.项目.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -99,27 +105,30 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1567" height="197" key="GridCell.Tab.0.bottom" timestamp="1601200519997">
+    <state width="1567" height="197" key="GridCell.Tab.0.bottom" timestamp="1601275192481">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601200519997" />
-    <state width="1567" height="197" key="GridCell.Tab.0.center" timestamp="1601200519997">
+    <state width="1567" height="197" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601275192481" />
+    <state width="1567" height="197" key="GridCell.Tab.0.center" timestamp="1601275192481">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601200519997" />
-    <state width="1567" height="197" key="GridCell.Tab.0.left" timestamp="1601200519997">
+    <state width="1567" height="197" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601275192481" />
+    <state width="1567" height="197" key="GridCell.Tab.0.left" timestamp="1601275192481">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167013" />
-    <state width="1567" height="197" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601200519997" />
-    <state width="1567" height="197" key="GridCell.Tab.0.right" timestamp="1601200519997">
+    <state width="1567" height="197" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601275192481" />
+    <state width="1567" height="197" key="GridCell.Tab.0.right" timestamp="1601275192481">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601200519997" />
+    <state width="1567" height="197" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601275192481" />
     <state x="1881" y="275" key="SettingsEditor" timestamp="1600933956337">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>

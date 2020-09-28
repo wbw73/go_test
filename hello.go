@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/wbw73/go_test/codecount"
 	"github.com/wbw73/go_test/show"
 	"reflect"
 )
@@ -66,7 +67,11 @@ func main() {
 	//basicio.SamlpeReadStdin()
 	//basicio.SamlpeReadFile()
 
+	//缓冲io
+	//bufiosample.IoSample()
 
+	//统计文件行数
+	codecount.CodeCount()
 
 
 
