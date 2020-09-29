@@ -49,15 +49,20 @@ func CopyFile(src,des string) (w int64,err error)   {
 	srcFile,err:=os.Open(src)
 	if err!=nil{
 		fmt.Println("源文件出错：",err.Error())
+		return
 	}
 	defer srcFile.Close()
+	reader := bufio.NewReader(srcFile)
+
 	desFile,err:=os.Create(des)
 	if err!=nil{
 		fmt.Println("源文件出错：",err.Error())
+		return
 	}
-	desFile.Close()
+	writer := bufio.NewWriter(desFile)
+	defer desFile.Close()
 
-	return io.Copy(desFile,srcFile)
+	return io.Copy(writer,reader)
 }
 
 func FileExits(filename string) bool  {
