@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/wbw73/go_test/filecopy"
 	"github.com/wbw73/go_test/show"
-	"github.com/wbw73/go_test/strconvsample"
 	"reflect"
 )
 
@@ -80,16 +80,21 @@ func main() {
 	//stringssample.StrSample()
 
 	//字符串转换
-	strconvsample.StrConvSample()
+	//strconvsample.StrConvSample()
 
+	//xml
+	//xmlsample.XmlSample()
 
+	//os
+	//flagsample.OsSample()
+	//flagsample.FlagSample()
+	//flagsample.Style()
 
+	//读取01GZipStream.csproj
+	//vsprojparse.ProjparseXml()
 
-
-
-
-
-
+	//拷贝文件
+	filecopy.FileCopy()
 
 
 

@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb334cbe-905d-4ac7-9731-2f03e8af7033" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/strconvsample/strsample.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stringssample/str.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01GZipStream.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filecopy/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flagsample/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vsprojparse/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlsample/xmlencod.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hello.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readimage/imageread.go" beforeDir="false" afterPath="$PROJECT_DIR$/readimage/imageread.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strconvsample/strsample.go" beforeDir="false" afterPath="$PROJECT_DIR$/strconvsample/strsample.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,11 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tmp\goWork\src\github.com\wbw73\go_test" />
+    </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build hello.go">
     <configuration name="go build github.com/wbw73/go_test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -108,34 +118,38 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1567" height="197" key="GridCell.Tab.0.bottom" timestamp="1601284756518">
+    <state x="2300" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601364266346">
+      <screen x="1600" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2300" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364266346" />
+    <state width="1567" height="123" key="GridCell.Tab.0.bottom" timestamp="1601364376212">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601284756518" />
-    <state width="1567" height="197" key="GridCell.Tab.0.center" timestamp="1601284756518">
+    <state width="1567" height="123" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364376212" />
+    <state width="1567" height="123" key="GridCell.Tab.0.center" timestamp="1601364376212">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601284756518" />
-    <state width="1567" height="197" key="GridCell.Tab.0.left" timestamp="1601284756518">
+    <state width="1567" height="123" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364376212" />
+    <state width="1567" height="123" key="GridCell.Tab.0.left" timestamp="1601364376212">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167013" />
-    <state width="1567" height="197" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601284756518" />
-    <state width="1567" height="197" key="GridCell.Tab.0.right" timestamp="1601284756518">
+    <state width="1567" height="123" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364376212" />
+    <state width="1567" height="123" key="GridCell.Tab.0.right" timestamp="1601364376212">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600918167015" />
-    <state width="1567" height="197" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601284756518" />
+    <state width="1567" height="123" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364376212" />
     <state x="1881" y="275" key="SettingsEditor" timestamp="1600933956337">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
     <state x="403" y="96" key="SettingsEditor/0.0.1600.860/1600.0.1680.1010@0.0.1600.860" timestamp="1600917935811" />
     <state x="1881" y="275" key="SettingsEditor/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1600933956337" />
-    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1601197205586">
+    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1601364030951">
       <screen x="1600" y="0" width="1680" height="1010" />
     </state>
-    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601197205586" />
+    <state x="2103" y="261" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1680.1010@1600.0.1680.1010" timestamp="1601364030951" />
   </component>
 </project>
