@@ -28,7 +28,7 @@ func FileCopy()  {
 func ActionCopyFile(src,des string,f,v bool) {
 	if !f{
 		if FileExits(des){
-			fmt.Printf("%s目标文件已存在，确定覆盖吗? y/n",des)
+			fmt.Printf("%s目标文件已存在，确定覆盖吗? y/n\n",des)
 			reader:=bufio.NewReader(os.Stdin)
 			data,_,_:=reader.ReadLine()
 			if strings.TrimSpace(string(data))!="y"{

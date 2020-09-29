@@ -11,16 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb334cbe-905d-4ac7-9731-2f03e8af7033" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/01GZipStream.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filecopy/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flagsample/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vsprojparse/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlsample/xmlencod.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hello.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strconvsample/strsample.go" beforeDir="false" afterPath="$PROJECT_DIR$/strconvsample/strsample.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecopy/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
